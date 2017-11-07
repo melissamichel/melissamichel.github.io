@@ -1,0 +1,464 @@
+
+/*#c07f63  orange
+#8c7c5a  beige
+#3a3a3a  charcoal
+#cecbc2  offwhite
+*/
+/***********************************************/
+/******************* general *******************/
+/***********************************************/
+/* adjusts for margins and padding in the grid. */
+/*@media screen and (min-width: 47.5rem)*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: auto;
+	font-family: 'Raleway', serif;
+	/*background:#cecbc2;*/
+	/*background:#451111;
+	background:#600606;*/
+   
+
+}
+
+
+/***********************************************/
+/******************* header ********************/
+/***********************************************/
+.headerContainer {
+	background-image: url('../img/cinemaold.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+
+	
+}
+	
+
+
+header {
+	background-color: #333;
+	background-color: rgba(74,74,74,.6);
+	/*background-color: #fff;*/
+	padding: 115px 5px;
+	position: relative;
+	
+	
+}
+
+header a {
+	text-decoration: none;
+}
+
+.logo {
+	position: absolute;
+	top: 120%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 20%;
+	
+}
+
+.logo img {
+	width: 20%;
+	
+}
+
+
+/**********************************************
+/*******************  nav  ********************
+/***********************************************/
+* {
+	font-family: Helvetica, sans-serif;
+	box-sizing: border-box;
+}
+
+.navButton {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1001;
+	padding: .5em;
+	background-color: ##fcb90d;
+	border: solid #cecbc2;
+	border-width: 0 0 1px;
+}
+
+.navButton a {
+	color: #cecbc2;
+	text-decoration: none;
+	padding: 0 0 0 .5em;
+}
+
+i {
+ 	font-size: 1em;
+ 	color: #cecbc2;
+ 	padding: 0 1em 0 0;
+ 	transition: color .5s;
+ }
+
+i:hover {
+ 	color: #fcb90d;
+ }
+
+ #nav {
+ 	position: fixed;
+ 	top: 2em;
+ 	left: -72%;
+ 	width: 72%;
+ 	margin: 0;
+ 	height: 100%;
+ 	background-color: #cecbc2;
+ 	background-color: rgba(0,0,0,.84);
+ 	transition: left .5s;
+}
+
+#nav:target {
+	left: 0;
+}
+
+nav {
+	z-index: 1000;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	margin-top: .5em;
+}
+nav li {
+	list-style: none;
+	margin: 0;
+	padding: 0;	
+}
+
+nav li a {
+	color: #cecbc2;
+	text-decoration: none;
+	display: block;
+	padding: .5em 1em;
+	transition: all .5s;
+}
+
+nav li a:hover {
+	color: #cecbc2;
+	text-decoration: none;
+	background-color: #cecbc2;
+	color: #cecbc2;
+}
+
+/* produces a blank line in mobile nav, but is
+hidden when on wider screens. */
+.hiddenLink {
+	display: block;
+}
+
+
+
+/*//////// DROP DOWN MENU ////////*/
+
+
+
+
+*{box-sizing: border-box;}
+body{
+  /*padding: .1em;*/
+}
+nav{
+  width: 20%;
+  min-width: 10em;
+  margin: 0 auto;
+}
+h1{
+  position: relative;
+  display: inline-block;
+  font: 1em/1em sans-serif;
+  cursor: pointer;
+  user-select: none;
+  height: 2.1em;
+}
+h1:after{
+  content:"";
+  border: 10px solid transparent;
+  border-top-color: #ccc;
+  position: absolute;
+  right: -30px;
+  top: 0px;
+}
+h1:hover + ul{
+  display: block;
+}
+ul{
+ background: #eee;
+ border: 1px solid #ddd;
+ border-radius: 1%;
+ display: none;
+ position: relative;
+ top: -1.5em;
+}
+ul:hover{
+  display: block;
+}
+li{
+ padding: 3% 5%;
+ border-top: 1px solid #fff;
+ border-bottom: 1px solid #ddd;
+ cursor: pointer;
+}
+li:first-child{border-top: none;}
+li:last-child{border-bottom: none;}
+li:hover{background: linear-gradient(#eee,#ddd);}
+
+
+/*////////////////////////////////////*/
+
+h1, h2, h3, h4, h5, h6,  {
+	font-family: 'Raleway', serif;
+	
+}
+
+
+
+h1 {
+	font-size:.9rem;
+	color: #fcb90d;
+	font-family: 'Raleway', serif; 
+	font-style: bold;
+	text-align: center;
+	font-weight: 500;
+	letter-spacing: .1rem;
+	
+	
+	
+}
+
+
+h2{
+	font-size: 1.1rem;
+	text-align: left;
+	padding:  5px;
+	margin: 10px;
+	color: #fff;
+	
+}
+
+
+
+
+p {
+	font-family: 'Raleway', serif;
+	font-size: .8rem;
+	text-align: left;
+	
+}
+
+
+.tgirl {
+	background-position: center;
+	background-image:url('../img/tankgirl');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding:150px 20px;
+	margin: 50px 50px;
+	box-shadow: 10px 10px 40px #888888;
+}
+
+.tgirldes {
+	padding: 20px;
+	font-family:'Raleway',serif;
+	color:#38a2e5 ;
+}
+
+.ratings {
+	padding: 10px 20px;
+	font-family:'Raleway',serif;
+
+}
+.doubtfire {
+	background-position: center;
+	background-image:url('../img/doubtfire.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding:170px 20px;
+	margin: 50px 50px;
+	box-shadow: 10px 10px 40px #888888;
+}
+
+.doubtfiredes {
+	padding: 20px;
+	color: ;
+}
+
+.footer {
+	background-color: #333;
+	color: #eee;
+	font-size: .75rem;
+	text-align: center; 
+	margin:40px;
+
+	
+}
+
+/* adjusts for margins and padding in the grid. */* {
+	box-sizing: border-box;
+}
+
+/*body {
+	background-color: #444;
+}*/
+
+/***************************
+********* buttons **********
+****************************/
+
+.button, .buttonExpand {
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	margin: 2em auto;
+	padding: 1em;	
+	width: 100px;
+	background-color: #eee;
+	color: #444;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all .5s;
+}
+
+.button:hover {
+	background-color: #444;
+	color: #eee;
+}
+
+.buttonExpand:hover {
+	background-color: #444;
+	color: #eee;
+	width: 100px;
+}
+
+.buttonBox {
+	position: relative;
+	width: 300px;
+	margin: 0 auto;
+}
+
+.buttonContent {
+	position: absolute;
+	top: 0;
+	left: 1em;
+	text-align: left;
+	width: 100px;
+}
+
+.buttonContent:hover {
+	width: 120px;
+}
+
+.buttonContent:after {
+	content: ' >>';
+	position: absolute;
+	right: -1.5em;
+	transition: right .5s;
+}
+
+.buttonContent:hover:after {
+	right: .5em;
+}
+
+
+
+article {
+	padding: 0 50px;
+}
+
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 50px;
+	/*border-bottom-style: solid;*/
+}
+}
+/********************************************/
+/* MEDIA QUERIES */
+/********************************************/
+
+@media only screen and (min-width: 40em) {
+	
+/***********************************************/
+/*******************  hero  ********************/
+/***********************************************/
+
+
+article {
+	padding: 0 50px;
+}
+
+/***********************************************/
+/******************* footer ********************/
+/***********************************************/
+
+
+/***********************************************/
+/*******************  text  ********************/
+/***********************************************/
+
+
+/***********************************************/
+/********************* bio *********************/
+/***********************************************/
+
+
+/***********************************************/
+/****************** portfolio ******************/
+/***********************************************/
+
+/***********************************************/
+/********************* media *******************/
+/***********************************************/
+/* Large and up */
+/*/*/*@media screen and (min-width: 64em) {}
+
+
+
+
+
+
+
+/*}*
+/**********************************************
+/******************  contact  ******************/
+/***********************************************/
+
+/***********************************************/
+/*************** helper classes ****************/
+/***********************************************/
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 50px;
+	/*border-bottom-style: solid;*/
+}
+
+
+
+/***********************************************/
+/**************** media queries ****************/
+/***********************************************/
+/*medium and up -48ems= 768px*/
+/*@media only screen and (min-width: 48em){*/
+
+
+
+
+
+	
+
+
+	
+
