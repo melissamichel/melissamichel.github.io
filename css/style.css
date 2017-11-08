@@ -1,4 +1,13 @@
 
+/*645754 gray
+766865 light gray
+ea1d5d light pink
+d51e29 red
+d8472a orange
+ea168c pink*/
+
+
+
 /*#c07f63  orange
 #8c7c5a  beige
 #3a3a3a  charcoal
@@ -17,7 +26,7 @@
 body {
 	margin: auto;
 	font-family: 'Raleway', serif;
-	/*background:#cecbc2;*/
+	background:#e9e2e2 ;
 	/*background:#451111;
 	background:#600606;*/
    
@@ -29,7 +38,7 @@ body {
 /******************* header ********************/
 /***********************************************/
 .headerContainer {
-	background-image: url('../img/cinemaold.jpg');
+	background-image: url('../img/popcorn.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -42,9 +51,9 @@ body {
 
 header {
 	background-color: #333;
-	background-color: rgba(74,74,74,.6);
+	background-color: rgba(24,24,24,.5);
 	/*background-color: #fff;*/
-	padding: 115px 5px;
+	padding: 215px 90px;
 	position: relative;
 	
 	
@@ -247,7 +256,12 @@ h2{
 	
 }
 
+ h3{
 
+ 	font-size: 2.2rem;
+ 	background-color: #e1e2e2;
+ 	text-align: center;  
+ }
 
 
 p {
@@ -260,18 +274,19 @@ p {
 
 .tgirl {
 	background-position: center;
-	background-image:url('../img/tankgirl');
+	background-image:url('../img/tankgirll.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding:150px 20px;
 	margin: 50px 50px;
-	box-shadow: 10px 10px 40px #888888;
+	box-shadow: 10px 10px 40px #766865;
+
 }
 
 .tgirldes {
 	padding: 20px;
 	font-family:'Raleway',serif;
-	color:#38a2e5 ;
+	color:#1620ea ;
 }
 
 .ratings {
@@ -291,8 +306,40 @@ p {
 
 .doubtfiredes {
 	padding: 20px;
-	color: ;
+	color: #645754;
 }
+
+
+.lambs {
+	background-position: center;
+	background-image:url('../img/lambs.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding:170px 20px;
+	margin: 50px 50px;
+	box-shadow: 10px 10px 40px #888888;
+}
+
+.lambsdes {
+	padding: 20px;
+	color: #645754;
+}
+
+.seven {
+	background-position: center;
+	background-image:url('../img/seven.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding:170px 20px;
+	margin: 50px 50px;
+	box-shadow: 10px 10px 40px #888888;
+}
+
+.sevendes {
+	padding: 20px;
+	color: #645754;
+}
+
 
 .footer {
 	background-color: #333;
