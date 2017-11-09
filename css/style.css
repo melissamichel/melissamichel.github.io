@@ -12,6 +12,9 @@ ea168c pink*/
 #8c7c5a  beige
 #3a3a3a  charcoal
 #cecbc2  offwhite
+
+
+#6b6a9a   blue/font & header
 */
 /***********************************************/
 /******************* general *******************/
@@ -27,6 +30,7 @@ body {
 	margin: auto;
 	font-family: 'Raleway', serif;
 	background:#e9e2e2 ;
+
 	/*background:#451111;
 	background:#600606;*/
    
@@ -51,9 +55,9 @@ body {
 
 header {
 	background-color: #333;
-	background-color: rgba(14,14,94,.6);
+	background-color: rgba(14,14,94,.4);
 	/*background-color: #fff;*/
-	padding: 215px 90px;
+	padding: 215px 190px;
 	position: relative;
 	
 	
@@ -65,24 +69,20 @@ header a {
 
 .logo {
 	position: absolute;
-	top: 120%;
+	top: 100px;
 	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 20%;
-	
-}
+	transform: translate(-50%, 0);
+	width: 200px;
 
-.logo img {
-	width: 20%;
-	
 }
 
 
 /**********************************************
 /*******************  nav  ********************
 /***********************************************/
+
 * {
-	font-family: Helvetica, sans-serif;
+	font-family: Raleway, sans-serif;
 	box-sizing: border-box;
 }
 
@@ -93,26 +93,26 @@ header a {
 	width: 100%;
 	z-index: 1001;
 	padding: .5em;
-	background-color: ##fcb90d;
-	border: solid #cecbc2;
+	background-color: #333;
+	border: solid #aaa;
 	border-width: 0 0 1px;
 }
 
 .navButton a {
-	color: #cecbc2;
+	color: #eee;
 	text-decoration: none;
 	padding: 0 0 0 .5em;
 }
 
 i {
  	font-size: 1em;
- 	color: #cecbc2;
- 	padding: 0 1em 1em 0;
+ 	color: #eee;
+ 	padding: 0 1em 0 0;
  	transition: color .5s;
  }
 
 i:hover {
- 	color: #fcb90d;
+ 	color: #333;
  }
 
  #nav {
@@ -121,8 +121,8 @@ i:hover {
  	left: -72%;
  	width: 72%;
  	margin: 0;
- 	height: 20%;
- 	background-color: #cecbc2;
+ 	height: 100%;
+ 	background-color: #333;
  	background-color: rgba(0,0,0,.84);
  	transition: left .5s;
 }
@@ -147,7 +147,7 @@ nav li {
 }
 
 nav li a {
-	color: #cecbc2;
+	color: #eee;
 	text-decoration: none;
 	display: block;
 	padding: .5em 1em;
@@ -155,10 +155,10 @@ nav li a {
 }
 
 nav li a:hover {
-	color: #cecbc2;
+	color: #eee;
 	text-decoration: none;
-	background-color: #cecbc2;
-	color: #cecbc2;
+	background-color: #eee;
+	color: #333;
 }
 
 /* produces a blank line in mobile nav, but is
@@ -167,79 +167,23 @@ hidden when on wider screens. */
 	display: block;
 }
 
-
-
 /*//////// DROP DOWN MENU ////////*/
 
 
 
 
-*{box-sizing: border-box;}
-body{
-  /*padding: .1em;*/
-}
-nav{
-  width: 20%;
-  min-width: 10em;
-  margin: 0 auto;
-}
-h1{
-  position: relative;
-  display: inline-block;
-  font: 1em/1em sans-serif;
-  cursor: pointer;
-  user-select: none;
-  height: 1.1em;
-}
-h1:after{
-  content:"";
-  border: 5px solid transparent;
-  border-top-color: #fff;
-  position: absolute;
-  right: -30px;
-  top: 0px;
-}
-h1:hover + ul{
-  display: block;
-}
-ul{
- background: #ffffff;
- border: 1px solid #fff;
- border-radius: 1%;
- position: relative;
- top: -1.5em;
-}
-ul:hover{
-  display: block;
-}
-li{
- padding: 3% 5%;
- border-top: 1px solid #fefefe;
- border-bottom: 1px solid #fefefe;
- cursor:progress;
-}
-li:first-child{border-top: none;}
-li:last-child{border-bottom: ridge;}
-li:hover{background: linear-gradient(#eee,#ddd);}
-
-
 /*////////////////////////////////////*/
-
-h1, h2, h3, h4, h5, h6,  {
-	font-family: 'Raleway', serif;
-	
-}
 
 
 
 h1 {
-	font-size:.9rem;
-	color: #fcb90d;
-	font-family: 'Raleway', serif; 
-	font-style: bold;
+	font-size:2.5rem;
+	/*color: #fcb90d;*/
+	font-family: 'Ubuntu', sans-serif;
 	text-align: center;
-	font-weight: 500;
-	letter-spacing: .1rem;
+	padding: 35px;
+	
+
 	
 	
 	
@@ -247,10 +191,10 @@ h1 {
 
 
 h2{
-	font-size: 1.1rem;
+	font-size: 1.5rem;
 	text-align: left;
-	padding:  5px;
-	margin: 10px;
+	padding: 5px;
+	margin: 15px;
 	color: #fff;
 	
 }
@@ -258,19 +202,25 @@ h2{
  h3{
 
  	font-size: 2.2rem;
+ 	font-family: 'Ubuntu', sans-serif;
  	background-color: #e1e2e2;
  	text-align: center;  
+ 	padding: 35px;
  }
 
 h4{
-	font-size: 2.0rem;
-	text-align: center;
+	font-size: 2.2rem;
+ 	font-family: 'Ubuntu', sans-serif;
+ 	background-color: #e1e2e2;
+ 	text-align: center; 
+ 	margin-bottom: 20px 90px;
 }	
 p {
 	font-family: 'Raleway', serif;
 	font-size: 1rem;
 	text-align: left;
-	margin: 10px;
+	margin: 15px;
+	
 	
 }
 
@@ -289,12 +239,13 @@ p {
 .tgirldes {
 	padding: 20px;
 	font-family:'Raleway',serif;
-	color:#1620ea ;
+	color:#6b6a9a;
 }
 
 .ratings {
 	padding: 10px 20px;
 	font-family:'Raleway',serif;
+	font-size: .5em;
 
 }
 .doubtfire {
@@ -309,7 +260,10 @@ p {
 
 .doubtfiredes {
 	padding: 20px;
-	color: #645754;
+	color: #6b6a9a;
+	font-family:'Raleway',serif;
+	margin-bottom: 10px;
+
 }
 
 
@@ -325,7 +279,8 @@ p {
 
 .lambsdes {
 	padding: 20px;
-	color: #645754;
+	color: #6b6a9a;
+	font-family:'Raleway',serif;
 }
 
 .seven {
@@ -340,7 +295,8 @@ p {
 
 .sevendes {
 	padding: 20px;
-	color: #645754;
+	color: #6b6a9a;
+	font-family:'Raleway',serif;
 }
 
 
@@ -354,13 +310,10 @@ p {
 	
 }
 
-/* adjusts for margins and padding in the grid. */* {
+* {
 	box-sizing: border-box;
 }
 
-/*body {
-	background-color: #444;
-}*/
 
 /***************************
 ********* buttons **********
@@ -433,12 +386,61 @@ article {
 	padding: 0 50px;
 	/*border-bottom-style: solid;*/
 }
-}
+
+
+
+
+
+/*//////STAR RATINGS///////*/
+
+
+
+
 /********************************************/
 /* MEDIA QUERIES */
 /********************************************/
 
-@media only screen and (min-width: 40em) {
+
+
+@media only screen and (min-width: 30em) {
+	.navButton {
+		display: none;
+	}
+
+	#nav {
+	 	margin: 0;
+	 	width: 100%;
+	 	height: auto;
+	 	background-color: #333;
+	 	background-color: rgba(0,0,0,.84);
+	 	position: static;
+	}
+
+	nav {
+		margin: 0;
+	}
+
+	nav ul {
+		text-align: center;
+		margin: 0;
+	}
+
+	nav li {
+		display: inline;
+	}
+
+	nav li a {
+		display: inline-block;
+		padding: .5em 1em;
+	}
+
+	.hiddenLink {
+		display: none;
+	}
+}
+
+
+
 	
 /***********************************************/
 /*******************  hero  ********************/
