@@ -97,7 +97,7 @@ header a {
 	width: 100%;
 	z-index: 1001;
 	padding: .5em;
-	background-color: #333;
+	background-color: #6b6a9a;
 	border: solid #aaa;
 	border-width: 0 0 1px;
 }
@@ -183,7 +183,7 @@ hidden when on wider screens. */
 
 
 h1 {
-	font-size:2.5rem;
+	font-size:2.9rem;
 	/*color: #fcb90d;*/
 	font-family: 'Ubuntu', sans-serif;
 	text-align: center;
@@ -207,14 +207,14 @@ h2{
 
  h3{
 
- 	font-size: 2.2rem;
+ 	font-size: 2.9rem;
  	font-family: 'Ubuntu', sans-serif;
  	text-align: center;  
  	padding: 35px;
  }
 
 h4{
-	font-size: 2.2rem;
+	font-size: 2.5rem;
  	font-family: 'Ubuntu', sans-serif;
  	text-align: center; 
  	margin-bottom: 20px 90px;
@@ -245,6 +245,8 @@ p {
 	padding: 20px;
 	font-family:'Raleway',serif;
 	color:#6b6a9a;
+	background-color: lightgray;
+
 }
 
 .ratings {
@@ -254,6 +256,7 @@ p {
 	margin-bottom: 50px;
 	border-bottom-style: double;
 	border-bottom-color: #6b6a9a;
+
 
 }
 
@@ -273,6 +276,8 @@ p {
 	color: #6b6a9a;
 	font-family:'Raleway',serif;
 	margin-bottom: 10px;
+	background-color: lightgray;
+
 
 }
 
@@ -291,6 +296,7 @@ p {
 	padding: 20px;
 	color: #6b6a9a;
 	font-family:'Raleway',serif;
+	background-color: lightgray;
 }
 
 .seven {
@@ -307,11 +313,12 @@ p {
 	padding: 20px;
 	color: #6b6a9a;
 	font-family:'Raleway',serif;
+	background-color: lightgray;
 }
 
 
 .footer,.clearfix {
-	background-color: #333;
+	background-color: #6b6a9a;
 	color: #eee;
 	font-size: .75rem;
 	text-align: center; 
@@ -338,8 +345,8 @@ p {
 	margin: 2em auto;
 	padding: 1em;	
 	width: 200px;
-	background-color: #eee;
-	color: #444;
+	background-color: #6b6a9a;
+	color: #fff;
 	border: 1px solid #eee;
 	border-radius: 20px;
 	cursor: pointer;
@@ -347,7 +354,7 @@ p {
 }
 
 .button:hover {
-	background-color: #444;
+	background-color: orange;
 	color: #eee;
 }
 
@@ -396,7 +403,6 @@ article {
 	max-width: 960px;
 	margin: 0 auto;
 	padding: 0 50px;
-	/*border-bottom-style: solid;*/
 }
 
 
@@ -486,11 +492,20 @@ article {
 /********************* media *******************/
 /***********************************************/
 /* Large and up */
-/*/*/*@media screen and (min-width: 64em) {}
+/*/*/*@media screen and (min-width: 64em) {
+
+	
+.logo {
+	position: absolute;
+	top: 1000px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	width: 100px;
+}
 
 
-
-
+}
+}
 
 
 /*}*
@@ -505,7 +520,6 @@ article {
 	max-width: 960px;
 	margin: 0 auto;
 	padding: 0 50px;
-	/*border-bottom-style: solid;*/
 }
 
 
