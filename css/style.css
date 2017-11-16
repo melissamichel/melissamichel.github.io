@@ -20,6 +20,7 @@ body {
 }
 
 
+
 /***********************************************/
 
 
@@ -40,7 +41,7 @@ body {
 header {
     background-color: #333;
     background-color: rgba(14, 14, 94, .4);
-    /*background-color: #fff;*/
+
     padding: 215px 190px;
     position: relative;
 }
@@ -56,6 +57,7 @@ header a {
     transform: translate(-50%, 0);
     width: 200px;
 }
+
 
 
 
@@ -153,12 +155,14 @@ nav li a:hover {
 
 
 
+
 /* produces a blank line in mobile nav, but is
 hidden when on wider screens. */
 
 .hiddenLink {
     display: block;
 }
+
 
 
 
@@ -197,7 +201,7 @@ h4 {
     font-size: 2.5rem;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
-    margin-bottom: 20px 90px;
+    /*margin-bottom: 20px 90px;*/
 }
 
 h5 {
@@ -218,10 +222,14 @@ p {
     padding: 20px;
     color: #6b6a9a;
     font-family: 'Raleway', serif;
-    margin-bottom: 10px;
+    margin-bottom: 70px;
     background-color: lightgray;
 }
 
+h4#pricing {
+    margin: 10px;
+    padding: 40px;
+}
 
 .ratings {
     padding: 30px 20px;
@@ -236,6 +244,8 @@ p {
     font-size: 1em;
     font-family: 'Raleway', serif;
     margin: 20px;
+    padding: 10px;
+    text-align: left;
 }
 
 .footer {
@@ -243,11 +253,11 @@ p {
     color: #eee;
     font-size: .75rem;
     text-align: center;
-    padding: 10px;
+    padding: 30px;
     margin: 0 auto;
 }
 
-.footer p {}
+
 
 
 * {
@@ -260,6 +270,7 @@ p {
     margin: 0 10%;
     box-shadow: 10px 10px 40px #766865;
 }
+
 
 
 
@@ -341,6 +352,7 @@ article {
     width: 80%;
     margin: 0 10%;
 }
+
 
 
 
@@ -450,7 +462,16 @@ article {
         border-bottom-style: none;
         font-size: .8rem;
     }
+
+    .logo {
+        position: absolute;
+        top: 75px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 350px;
+    }
 }
+
 
 
 
@@ -537,7 +558,9 @@ article {
 
 
 
+
 }
+
 
 
 
@@ -559,6 +582,7 @@ article {
     margin: 0 auto;
     padding: 0 50px;
 }
+
 
 
 
